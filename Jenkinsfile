@@ -13,7 +13,7 @@ pipeline {
                  app =  docker.build("asg")
                  }
                }
-            }
+           }
     }
 
 	stage('Push') {
